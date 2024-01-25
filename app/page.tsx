@@ -47,12 +47,14 @@ const Home: NextPage = () => {
         </Link>
 
         {/* Challenge 4 */}
+        {/*
         <Link href="/challenge4">
           <div className="cursor-pointer bg-white rounded-lg shadow-md p-6 hover:bg-gray-200">
             <h2 className="text-2xl font-semibold mb-2">Challenge 4 (Hard)</h2>
             <p className="text-gray-600">Description for Challenge 4</p>
           </div>
         </Link>
+         */}
       </div>
     </main>
   );
