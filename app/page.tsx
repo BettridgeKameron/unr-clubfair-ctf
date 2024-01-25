@@ -7,7 +7,17 @@ const Home: NextPage = () => {
       <div className="bg-white rounded-lg shadow-md p-6 mb-8 text-center">
         <h1 className="text-4xl font-bold mb-2">UNR Club Fair CTF</h1>
         <p className="text-lg">
-          Welcome to the Nevada Cyber Club CTF! Complete some of these challenges, and tell us the Flags for some prizes!
+          Welcome to the Nevada Cyber Club CTF! Complete some of these challenges, 
+          and tell us the Flags for some prizes! <br/><br/> 
+          These challenges are all possible to do on mobile. Don't be afraid to Google, but If you need hints, feel free to ask us at 
+          the table (You will still get a prize!). <br/><br/> 
+          If you want to learn more, do different challenges, meet other security interested peers, or compete in competitions:&nbsp;
+          <Link href="https://discord.gg/2DqVrn2ufF">
+            <p className="inline text-blue-600 hover:underline cursor-pointer">
+              Join us here on Discord!
+            </p>
+          </Link> <br/><br/> 
+          Do note that the flag will be in the format "<strong><code>CLUBFAIR&#123;&lt;Text_Here&gt;&#125;</code></strong>"
         </p>
       </div>
 
@@ -15,8 +25,8 @@ const Home: NextPage = () => {
         {/* Challenge 1 */}
         <Link href="/challenge1">
           <div className="cursor-pointer bg-white rounded-lg shadow-md p-6 hover:bg-gray-200">
-            <h2 className="text-2xl font-semibold mb-2">Challenge 1</h2>
-            <p className="text-gray-600">Description for Challenge 1</p>
+            <h2 className="text-2xl font-semibold mb-2">Challenge 1 (Easy)</h2>
+            <p className="text-gray-600">Weird Data</p>
           </div>
         </Link>
 
