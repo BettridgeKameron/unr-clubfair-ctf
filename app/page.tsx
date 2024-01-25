@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <p className="text-lg">
           Welcome to the Nevada Cyber Club CTF! Complete some of these challenges, 
           and tell us the Flags for some prizes! <br/><br/> 
-          These challenges are all possible to do on mobile. Don't be afraid to Google, but If you need hints, feel free to ask us at 
+          These challenges are all possible to do on mobile. Don&apos;t be afraid to Google, but If you need hints, feel free to ask us at 
           the table (You will still get a prize!). <br/><br/> 
           If you want to learn more, do different challenges, meet other security interested peers, or compete in competitions:&nbsp;
           <Link className="inline text-blue-600 hover:underline" href="https://discord.gg/2DqVrn2ufF">
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           </Link>
           <br/><br/>
 
-          Do note that the flag will be in the format "<strong><code>CLUBFAIR&#123;&lt;Text_Here&gt;&#125;</code></strong>"
+          Do note that the flag will be in the format &quot;<strong><code>CLUBFAIR&#123;&lt;Text_Here&gt;&#125;</code></strong>&quot;
         </p>
       </div>
 

@@ -7,7 +7,7 @@ export default function Page() {
         <h1 className="text-2xl font-bold mb-2 text-gray-700">Challenge 2</h1>
         <p className="text-gray-700">
           We found some weak password hashes, and need to recover what they originally were. See if you can crack them! <br/><br/> Note: The flag format is 
-          "<strong><code>CLUBFAIR&#123;&lt;Password1_Password2_Password3&gt;&#125;</code></strong>"
+          &quot;<strong><code>CLUBFAIR&#123;&lt;Password1_Password2_Password3&gt;&#125;</code></strong>&quot;
         </p>
         
         {/* Numbered List */}

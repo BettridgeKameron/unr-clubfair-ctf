@@ -8,7 +8,7 @@ export default function Page() {
         <p className="text-gray-700">
           We found some strange data that will apparently get the flag, but it seems weird to me.
           Are you able to get the flag? <br/><br/> Note: The flag format is 
-          "<strong><code>CLUBFAIR&#123;&lt;Text_Here&gt;&#125;</code></strong>"
+          &quot;<strong><code>CLUBFAIR&#123;&lt;Text_Here&gt;&#125;</code></strong>&quot;
         </p>
         
         {/* Bulleted List */}

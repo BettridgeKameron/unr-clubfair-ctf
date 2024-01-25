@@ -23,7 +23,7 @@ export default function Page() {
         
         <p className="text-gray-700 mt-4">
           What airport were the images taken at, and what the city I went to?  <br/><br/> Note: The flag format is
-          "<strong><code>CLUBFAIR&#123;&lt;AirportAbbreviation_CityName&gt;&#125;</code></strong>"
+          &quot;<strong><code>CLUBFAIR&#123;&lt;AirportAbbreviation_CityName&gt;&#125;</code></strong>&quot;
         </p>
 
         {/* Back to Home link */}
