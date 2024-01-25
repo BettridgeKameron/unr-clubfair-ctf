@@ -42,7 +42,7 @@ const Home: NextPage = () => {
         <Link href="/challenge3">
           <div className="cursor-pointer bg-white rounded-lg shadow-md p-6 hover:bg-gray-200">
             <h2 className="text-2xl font-semibold mb-2">Challenge 3 (Medium)</h2>
-            <p className="text-gray-600">Find the Airport</p>
+            <p className="text-gray-600">Vacation Destination</p>
           </div>
         </Link>
 
