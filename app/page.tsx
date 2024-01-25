@@ -12,11 +12,11 @@ const Home: NextPage = () => {
           These challenges are all possible to do on mobile. Don't be afraid to Google, but If you need hints, feel free to ask us at 
           the table (You will still get a prize!). <br/><br/> 
           If you want to learn more, do different challenges, meet other security interested peers, or compete in competitions:&nbsp;
-          <Link href="https://discord.gg/2DqVrn2ufF">
-            <p className="inline text-blue-600 hover:underline cursor-pointer">
-              Join us here on Discord!
-            </p>
-          </Link> <br/><br/> 
+          <Link className="inline text-blue-600 hover:underline" href="https://discord.gg/2DqVrn2ufF">
+            Join us here on Discord!
+          </Link>
+          <br/><br/>
+
           Do note that the flag will be in the format "<strong><code>CLUBFAIR&#123;&lt;Text_Here&gt;&#125;</code></strong>"
         </p>
       </div>
@@ -33,23 +33,23 @@ const Home: NextPage = () => {
         {/* Challenge 2 */}
         <Link href="/challenge2">
           <div className="cursor-pointer bg-white rounded-lg shadow-md p-6 hover:bg-gray-200">
-            <h2 className="text-2xl font-semibold mb-2">Challenge 2</h2>
-            <p className="text-gray-600">Description for Challenge 2</p>
+            <h2 className="text-2xl font-semibold mb-2">Challenge 2 (Easy)</h2>
+            <p className="text-gray-600">Password Cracking</p>
           </div>
         </Link>
 
         {/* Challenge 3 */}
         <Link href="/challenge3">
           <div className="cursor-pointer bg-white rounded-lg shadow-md p-6 hover:bg-gray-200">
-            <h2 className="text-2xl font-semibold mb-2">Challenge 3</h2>
-            <p className="text-gray-600">Description for Challenge 3</p>
+            <h2 className="text-2xl font-semibold mb-2">Challenge 3 (Medium)</h2>
+            <p className="text-gray-600">Find the Airport</p>
           </div>
         </Link>
 
         {/* Challenge 4 */}
         <Link href="/challenge4">
           <div className="cursor-pointer bg-white rounded-lg shadow-md p-6 hover:bg-gray-200">
-            <h2 className="text-2xl font-semibold mb-2">Challenge 4</h2>
+            <h2 className="text-2xl font-semibold mb-2">Challenge 4 (Hard)</h2>
             <p className="text-gray-600">Description for Challenge 4</p>
           </div>
         </Link>
